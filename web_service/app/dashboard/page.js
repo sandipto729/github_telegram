@@ -165,7 +165,18 @@ export default function Dashboard() {
             <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-5 text-sm">
               <h3 className="font-semibold text-blue-400 mb-2">📱 Connect Telegram</h3>
               <p className="text-zinc-300 mb-2">
-                Open your bot in Telegram and type:
+                1. Open the bot:{" "}
+                <a
+                  href="https://web.telegram.org/k/#@github_mcp_bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:underline"
+                >
+                  @github_mcp_bot
+                </a>
+              </p>
+              <p className="text-zinc-300 mb-2">
+                2. Send <strong>/start</strong>, then link your account:
               </p>
               <code className="block bg-zinc-800 px-3 py-2 rounded-lg text-blue-300 text-xs">
                 /link {user.username} your_password
